@@ -1,4 +1,4 @@
-# This R Script generates a histogram plot using the Household Power Consumption dataset.
+# This R Script generates a plot of Global Active Power using the Household Power Consumption dataset.
 
 # Read in data from text file
 powerdata <- read.csv("household_power_consumption.txt",sep=";",dec=".",na.strings="?",colClasses=c(rep("character",2),rep("numeric",7)));
